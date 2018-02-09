@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MarsRoverPhotos</string>
+    <string name="response_not_successful">No image available</string>
+    <string name="api_call_failed">Connection failed</string>
+    <string name="sol">sol %d</string>
+</resources>
