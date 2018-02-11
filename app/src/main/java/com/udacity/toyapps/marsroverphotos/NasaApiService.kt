@@ -7,11 +7,12 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface NasaApiService {
+
     @GET("photos")
     fun getPhotos(@Query("sol") sol: Int,
                   @Query("camera") camera: String,
                   @Query("api_key") api_key: String):
-            Call<Model.Result>
+            Call<Result>
 
     companion object {
         fun create(): NasaApiService {
